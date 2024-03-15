@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Signup</h2>
+        <form id="signup-form">
+          <div class="form-group">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required minlength="3" maxlength="15">
+          </div>
+          <div class="form-group">
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required minlength="1"maxlength="10">
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" name="password" placeholder="Password" required minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z]).{8,}$">
+          </div>
+          <div class="form-group">
+            <input type="password" id="repeat-password" name="repeat-password" placeholder="Repeat Password" required>
+          </div>
+          <div class="form-group">
+            <button type="submit">Signup</button>
+          </div>
+        </form>
+        <p id="error-message" class="error-message"></p>
+      </div>
+</body>
+</html>
