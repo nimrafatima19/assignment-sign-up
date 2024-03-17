@@ -118,7 +118,7 @@
       padding: 40px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      margin-left: 80px;
+      margin-left: 100px;
       }
     
       .input2{
@@ -127,4 +127,16 @@
       .input3{
         width:100%;
         
+      }
+      textarea{
+        width:100%;
+        padding: 10px;
+      }
+      .img{
+        height: 100px;
+        background-color: brown;
+      }
+      .main-container{
+        display: flex;
+        align-items: center;
       }
