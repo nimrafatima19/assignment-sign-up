@@ -2,6 +2,7 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 
 }
 .nav{
@@ -39,9 +40,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     color:white;
+    font-weight: bolder;
 }
 .logout{
-    width:15%;
+    width:10%;
     height: 40px;
     display: flex;
     align-items: center;
@@ -50,6 +52,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     color: white;
+    font-weight: bolder;
 
 }
 .pro{
@@ -61,6 +64,10 @@
     padding: 10px 100px;
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    position: fixed;
+    z-index: 1;
+    top:0;
+   
 }
 
 .pro>h2{
@@ -74,8 +81,11 @@
     background-color: gold;
     display: flex;
     align-items: center;
-    padding: 10px 100px;
-    margin-top: 40px;
+    padding: 30px 100px;
+    margin-top: 120px;
+    
+   
+ 
 }
 .profile1{
     width:65%;
@@ -83,9 +93,79 @@
     background-color: white;
     display: flex;
     align-items: center;
-    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;;
+    box-shadow: rgba(149, 157, 165, 0.2)0px 8px 24px;
+    padding-top: 20px;
 }
 
+.cards{
+    width:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.imgs{
+    width:100%;
+    height: 230px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.imgs>img{
+    width:100%;
+    border-radius: 10px;
+    
+}
+.title{
+    width:100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+
+}
+.inp{
+    width:100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inps{
+    width:100%;
+    height: 30px;
+    padding: 10px;
+    border:1px solid silver;
+}
+.inps:focus{
+    outline: 1px solid silver;
+}
+.purple{
+    color: blueviolet;
+}
+.btn{
+    width:100%;
+    height:40px;
+    display:flex ;
+    align-items: center;
+}
+.btn1{
+    width:120px;
+    height: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color:white;
+    background-color: #7749F8;
+    border-radius: 5px;
+}
 @media screen and (max-width:740px){
     .personal{
         font-size: 1rem;
@@ -95,6 +175,20 @@
     }
     .logout{
         font-size: 0.8rem;
+    }
+    .profile{
+        width:100%;
+        justify-content: center;
+        margin-top: 80px;
+        padding: 20px 30px;
+    }
+    .profile1{
+        width:100%;
+        justify-content: center;
+    }
+    .pro{
+        padding: 20px 30px;
+        height:40px;
     }
 }
 
@@ -114,10 +208,34 @@
     }
     .pro{
         padding: 20px 30px;
-        height:60px;
+        height:40px;
     }
     .pro>h2{
         font-size: 1.2rem;
+    }
+    .profile{
+        width:100%;
+        justify-content: center;
+        padding: 0px 30px;
+        margin-top: 80px;
+        padding: 20px 30px;
+    }
+    .profile1{
+        width:100%;
+        justify-content: center;
+        padding: 10px;
+    }
+    .cards{
+        width: 280px;
+        gap: 15px;
+    }
+    .imgs{
+        height: 240px;
+        object-fit:cover;
+    }
+    .imgs>img{
+        width:100%;
+        height: 180px;
     }
 }
 
