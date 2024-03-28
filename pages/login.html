@@ -5,17 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../profile.css">
 </head>
 <body>
+   <!-- section header -->
+ <header class="nav">
+  <div class="personal">Personal Beloging App</div>
+  
+  <div class="logout">SignUp</div>
+</header>
+
+<section class="pro">
+  <h1>LogIn</h1>
+</section>
+<!-- login  -->
+<section class="das1">
+  <div class="container2">
     <div class="container">
-        <h2>Login</h2>
+        <div class="head"><h2>Login</h2></div>
         <form id="signup-form">
         
           <div class="form-group">
             <input type="email" id="email" name="email" placeholder="Email" required>
           </div>
           <div class="form-group">
-            <input type="password" id="password" name="password" placeholder="Password" required minlength="8"
+            <input type="password" id="password" name="password" placeholder="Password" required minlength="6"
               pattern="^(?=.*[a-z])(?=.*[A-Z]).{8,}$">
           </div>
          
@@ -25,6 +39,8 @@
         </form>
         <p id="error-message" class="error-message"></p>
       </div>
+      </div>
+    </section>
      <script src="app.js"></script>
 </body>
 </html>
