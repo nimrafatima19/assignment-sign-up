@@ -1,7 +1,8 @@
 body{
+    background-image: url("images/WhatsApp Image 2024-03-28 at 3.07.09 PM.jpeg");
     /* background: rgb(0,185,215);
     background: linear-gradient(180deg, rgba(0,185,215,1) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%); */
-    background-color: black;
+    /* background-color: black; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +16,7 @@ body{
     justify-content: center;
     padding: 60px 30px;
     margin-top:40px ;
-background-color: aqua;
+/* background-color: aqua; */
 }
 .cardhtml{
     width: 350px;

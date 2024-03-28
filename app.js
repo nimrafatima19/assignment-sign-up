@@ -107,11 +107,11 @@ const logIn =()=>{
 }
 
 // indext.js
-function sign(){
+function signbtn(){
   window.location.assign("signup.html")
 
 }
-function log(){
+function logbtn(){
   window.location.assign("login.html")
   
 }
