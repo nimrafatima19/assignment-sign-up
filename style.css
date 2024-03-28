@@ -4,37 +4,31 @@
     box-sizing: border-box;
     
 }
-.container {
+.dash1{
+  width:100%;
+  padding: 10px;
+}
+.container2 {
     max-width: 400px;
     margin: 50px auto;
     padding: 40px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     
+  
     
   }
   .container {
-    /* width: 100px;
-    height: 100px;
-    background-color: blue; */
-    position: relative;
-    /* animation: moveBox 2s infinite alternate; Apply animation */
+    
+    width:100%;
+    padding-bottom: 30px;
 }
-
-/* Define the animation */
-/* @keyframes moveBox {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 200px;
-    }
-} */
-
-
-
-  
-  .form-group {
+ .form-group {
     margin-bottom: 15px;
   }
   
@@ -44,8 +38,11 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid silver;
   }
+  input:focus{
+    outline: 1px solid silver;
+}
   
   button {
     padding: 10px 20px;
@@ -67,17 +64,6 @@
   }
   
 
-  /* li{
-    display: inline;
-    margin:10px;
-    padding-right: 10px;
-  }
-  .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-  } */
 
 
   
