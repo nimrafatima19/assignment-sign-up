@@ -55,6 +55,20 @@
     font-weight: bolder;
 
 }
+/* index css for header */
+.git{
+    font-size: 2rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.yellow{
+    background-color: gold;
+}
+/* index part */
 .pro{
     margin-top:40px;
     width:100%;
