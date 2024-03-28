@@ -71,15 +71,15 @@ const signup=()=>{
 
   .then((result) => {
     // Signed up 
-   document.write("you are signed up")
+   window.location.assign("login.html")
     console.log(result)
     // ...
   })
   .catch((error) => {
     console.log(error.code)
     console.log(error.message)
-    alert(error.code)
-    alert(error.message)
+    alert("re-type")
+    alert("fill the inputs")
     // ..
   });
 }
@@ -105,3 +105,15 @@ const logIn =()=>{
     // ..
   });
 }
+
+// indext.js
+function sign(){
+  window.location.assign("signup.html")
+
+}
+function log(){
+  window.location.assign("login.html")
+  
+}
+
+
