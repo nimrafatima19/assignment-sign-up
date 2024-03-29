@@ -72,8 +72,8 @@ a{
 }
 .yellow{
     height: 50px;
-      background: rgb(0,185,215);
-    background: linear-gradient(180deg, rgb(4, 130, 150) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%);
+      background: rgb(5, 24, 202);
+    background: linear-gradient(180deg, rgb(19, 4, 150) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     /* background-color: black; */;
     /* text-shadow:#7749F8 ; */

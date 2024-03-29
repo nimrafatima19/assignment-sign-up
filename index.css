@@ -41,8 +41,10 @@ body{
     font-size: 2rem;
     font-weight: bolder;
     font-family: cursive;
+    
     text-shadow: 1px 1px 3px #000000a1;
     color:aliceblue;
+    
 
     
     
@@ -63,7 +65,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(43, 226, 141);
+    /* background-color: rgb(43, 226, 141); */
     padding: 5px;
    
 }
@@ -73,23 +75,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(226, 43, 171);
+    /* background-color: rgb(226, 43, 171); */
     padding: 5px;
 }
 button{
     width: 120px;
-    height: 30px;
+    height: 35px;
     padding: 5px;
     border:none;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: solid 1px;
-    /* background-color: blue; */
-    /* color: white; */
-    font-size:1rem;
+    border-radius: 5px;
+    font-family:cursive;
+    font-size:1.3rem;
     cursor: pointer;
-    text-shadow: 1px 1px 3px #000000a1;
+    text-shadow: 2px 1px 3px #000000a1;
     color:aliceblue;
+    background: rgb(5, 24, 202);
+    background: linear-gradient(180deg, rgb(19, 4, 150) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%);
 
+}
+button:hover{
+    background-color: rgb(181, 208, 231);
+    background: linear-gradient(180deg, rgb(179, 173, 233) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%);
+    color:blue
 }
