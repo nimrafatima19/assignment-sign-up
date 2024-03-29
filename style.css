@@ -20,6 +20,9 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-top: 140px;
+    background-color: #10033f52;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
     
    
   
@@ -34,6 +37,7 @@
     /* max-width: 400px;
    margin-top: 130px; */
    max-width: 400px;
+   color:white;
    
    /* border: 1px solid #ccc; */
   
@@ -41,15 +45,10 @@
   
 }
 
-/* Define the animation */
-/* @keyframes moveBox {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 200px;
-    }
-} */
+a{
+  text-decoration: none;
+  color:white;
+}
 
 
 

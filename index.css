@@ -101,3 +101,12 @@ button:hover{
     background: linear-gradient(180deg, rgb(179, 173, 233) 0%, rgba(195,222,243,1) 72%, rgba(255,255,255,1) 100%);
     color:blue
 }
+
+/* signup.css */
+.dash1{
+    background-image: url("images/WhatsApp Image 2024-03-28 at 3.07.09 PM.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

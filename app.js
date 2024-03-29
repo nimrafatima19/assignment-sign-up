@@ -116,4 +116,9 @@ function logbtn(){
   
 }
 
+// login function
+function logIN(){
+  window.location.assign("home.html")
+}
+
 
