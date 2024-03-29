@@ -78,7 +78,7 @@ const signup=()=>{
   .catch((error) => {
     console.log(error.code)
     console.log(error.message)
-    alert("re-type")
+    alert("Already have an account please sign in")
     alert("fill the inputs")
     // ..
   });
