@@ -82,6 +82,10 @@ const signup=()=>{
     swal("fill the inputs")
     if(signuppassword.length<6){
       swal("please enter at least 6 digit password")
+    }if (condition) {
+      
+    } else {
+      
     }
     // ..
   });
