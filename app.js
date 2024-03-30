@@ -78,10 +78,22 @@ const signup=()=>{
   .catch((error) => {
     console.log(error.code)
     console.log(error.message)
-    alert("Already have an account please sign in")
-    alert("fill the inputs")
+    swal("Already have an account please sign in")
+    swal("fill the inputs")
+    if(signuppassword.length<6){
+      swal("please enter at least 6 digit password")
+    }
     // ..
   });
+}
+
+// btn fuction
+function signbtn(){
+  let signuppassword = document.getElementById("password").value;
+  if(signuppassword.length<6){
+    alert("please enter at least 6 digit password")
+  }
+
 }
 
 // log in fuction
