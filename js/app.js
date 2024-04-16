@@ -100,27 +100,27 @@ function signbtn(){
 
 }
 
-// log in fuction
-const logIn =()=>{
-  let signupemail = document.getElementById("email").value;
-  let signuppassword = document.getElementById("password").value;
+// // log in fuction
+// const logIn =()=>{
+//   let signupemail = document.getElementById("email").value;
+//   let signuppassword = document.getElementById("password").value;
 
-  // firebase code
-  firebase.auth().signInWithEmailAndPassword(email, password)
-  .then((result) => {
-     // Signed in 
-   document.write("you are signed In")
-   console.log(result)
-   // ...
-  })
-  .catch((error) => {
-    console.log(error.code)
-    console.log(error.message)
-    alert(error.code)
-    alert(error.message)
-    // ..
-  });
-}
+//   // firebase code
+//   firebase.auth().signInWithEmailAndPassword(email, password)
+//   .then((result) => {
+//      // Signed in 
+//    document.write("you are signed In")
+//    console.log(result)
+//    // ...
+//   })
+//   .catch((error) => {
+//     console.log(error.code)
+//     console.log(error.message)
+//     alert(error.code)
+//     alert(error.message)
+//     // ..
+//   });
+// }
 
 // indext.js
 function signbtn(){
