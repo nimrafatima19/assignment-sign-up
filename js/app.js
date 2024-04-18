@@ -85,8 +85,7 @@ const signup=()=>{
       swal("please enter at least 6 digit password")
     } if (signuppassword === "") {
       swal("fill the inputs")
-    } if(signupemail == "") {
-      swal("Plesase fill the email")}
+    } 
       
     // ..
   });
