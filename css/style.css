@@ -87,6 +87,11 @@ a{
     font-size: 14px;
     margin-top: 10px;
   }
+  @media screen and (max-width:550px){
+    .container2 {
+      max-width: 300px;}
+  }
+
   
 
 
