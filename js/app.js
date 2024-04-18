@@ -78,27 +78,28 @@ const signup=()=>{
   .catch((error) => {
     console.log(error.code)
     console.log(error.message)
-    swal("Already have an account please sign in")
-    swal("fill the inputs")
-    if(signuppassword.length<6){
+    // alert("Already have an account please sign in")
+    // alert("fill the inputs")
+   
+    if(signuppassword.length<6 || signuppassword.length>6){
       swal("please enter at least 6 digit password")
-    }if (condition) {
+    } if (signuppassword === "") {
+      swal("fill the inputs")
+    } if(signupemail == "") {
+      swal("Plesase fill the email")}
       
-    } else {
-      
-    }
     // ..
   });
 }
 
 // btn fuction
-function signbtn(){
-  let signuppassword = document.getElementById("password").value;
-  if(signuppassword.length<6){
-    alert("please enter at least 6 digit password")
-  }
+// function signbtn(){
+//   let signuppassword = document.getElementById("password").value;
+//   if(signuppassword.length<6 || signuppassword>6){
+//     alert("please enter at least 6 digit password")
+//   }
 
-}
+// }
 
 // // log in fuction
 // const logIn =()=>{
