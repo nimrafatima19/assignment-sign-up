@@ -90,6 +90,15 @@ const signup=()=>{
     // ..
   });
 }
+// log in function 
+let signupemail = document.getElementById("email").value;
+let signuppassword = document.getElementById("password").value;
+let logInemail = document.getElementById("logInemail").value;
+let logInpassword = document.getElementById("logInpassword").value
+function logIn(){
+ 
+window.location.assign("home.html")
+}
 
 // btn fuction
 // function signbtn(){
